@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>나의 프로필 페이지</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    /* 프로필 영역 */
+    .profile {
+      text-align: center;
+      padding: 20px;
+    }
+    .profile img {
+      width: 150px;
+      border-radius: 50%;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .intro {
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    /* 기술 스택 */
+    .skills {
+      padding: 20px;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+    /* 관심 분야 (표) */
+    .interests {
+      padding: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    table, th, td {
+      border: 1px solid #aaa;
+    }
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+    /* 소통 채널 */
+    .contact {
+      padding: 20px;
+      text-align: center;
+    }
+    .contact a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #007acc;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- 1. 프로필 영역 -->
+    <div class="profile">
+      <h1>👋 안녕하세요! 저는 김세현입니다</h1>
+      
+      <!-- ✅ 본인 사진 불러오기 -->
+      <img src="Sehyun Kim.jpeg" alt="내 프로필 사진">
+      
+      <p class="intro">백엔드 개발자를 꿈꾸는 주니어 개발자입니다. 🚀</p>
+    </div>
+
+    <!-- 2. 기술 스택 -->
+    <div class="skills">
+      <h2>💻 기술 스택</h2>
+      <ul>
+        <li>Java / Spring Boot</li>
+        <li>JavaScript / Node.js</li>
+        <li>HTML / CSS</li>
+        <li>XML / Android studio</li>
+        <li>Git / GitHub</li>
+      </ul>
+    </div>
+
+    <!-- 3. 관심 분야 -->
+    <div class="interests">
+      <h2>🎯 관심 분야</h2>
+      <table>
+        <tr>
+          <td>골프</td>
+          <td>초등학교 3학년때 부터 시작</td>
+        </tr>
+        <tr>
+          <td>수영</td>
+          <td>다이어트 목적으로 시작했는데 취미에 맞음</td>
+        </tr>
+        <tr>
+          <td>애니메이션</td>
+          <td>원피스, 진격의 거인등 애니를 좋아함</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- 4. 소통 채널 -->
+    <div class="contact">
+      <h2>📬 소통 채널</h2>
+      <p>
+          <a href="https://shkim6663@naver.com/">이메일</a>
+          <a href="https://github.com/shkim6663">GitHub</a>
+          <a href="https://velog.io/@shkim6663/posts">블로그</a>
+      </p>
+    </div>
+
+  </div>
+</body>
+</html>
