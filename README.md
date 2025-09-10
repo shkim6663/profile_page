@@ -5,4 +5,11 @@
 5. 소통채널 정보 작성하기
 6. 소통 채널 클릭시 새탬으로 열리도록 하기
 
-<img width="807" height="1009" alt="스크린샷 2025-09-02 오후 8 42 42" src="https://github.com/user-attachments/assets/5568664d-70b0-4281-b1ef-08f34b747f37" />
+
+시연영상
+
+
+https://github.com/user-attachments/assets/c6d00c1e-59d0-43e0-a0b5-b4bd1f3a875c
+
+
+
