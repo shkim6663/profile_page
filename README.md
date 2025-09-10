@@ -9,7 +9,11 @@
 시연영상
 
 
-https://github.com/user-attachments/assets/c6d00c1e-59d0-43e0-a0b5-b4bd1f3a875c
+
+
+https://github.com/user-attachments/assets/85420386-0051-4b50-ba2d-71dd7737d371
+
+
 
 
 
